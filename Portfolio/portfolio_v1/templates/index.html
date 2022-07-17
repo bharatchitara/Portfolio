@@ -23,16 +23,8 @@
 
     <body>
         <section class = "main-body">
-            <nav >
-                <a href = "index.html"><img src = "{% static 'images/logo8.png' %}"></a>
-                <div class = "nav-links">
-                    <ul>
-                        <li><a href = "">HOME</a></li>
-                        <li><a href = "">ABOUT</a></li>
-                        <li><a href = "">WORK</a></li>
-                        <li><a href = "">CONTACT</a></li>
-                    </ul>
-            </nav> 
+            {% include 'header.html' %}
+        </section>
             
             <div class="text-box">
                 <h3> Hello!👋 I am</h3>
@@ -43,15 +35,11 @@
             <div class = "portfolio-img">
                 <img src="{% static 'images/user_img.png' %}" alt="avatar" width="400" height="400">
             </div>
-
-           {% include 'footer.html' %}
-
-
-        </section>
-
-
-
         
+        
+            {% include 'footer.html' %}
+
+
     </body> 
 </html>
 
