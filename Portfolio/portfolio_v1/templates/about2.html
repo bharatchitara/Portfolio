@@ -7,10 +7,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="Bharat chitara's portfolio" />
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
         <meta name="author" content="" />
         <title>Bharat Chitara- About Page </title>
       
-        <link href="{% static 'css/styles.css' %}" rel="stylesheet" type="text/css" />
+        <link href="{% static 'css/about.css' %}" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" href="{% static 'css/timeline.css' %}" type="text/css"/>
        <!-- <link href="css/styles.css" rel="stylesheet" />-->
        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -23,15 +24,16 @@
     </head>
 
     <body>
-        
+
         <section class = "main-body">
-            <nav style= "display: flex;">
+        <nav style= "display: flex;">      
             {% include 'header.html' %}
-            </nav>
-        </section> 
+        </nav>
+        </section>
+        
             
             <div class="about-text-box">
-                <h3>I’m Bharat Chitara (Your friendly neighbourhood Developer) and I<br> have started my career back in 2019. The journey till today is full of<br>surprises and great learnings.<br>
+                <h3>I’m Bharat Chitara (Your friendly neighbourhood Developer) and I have started my career back in 2019. The journey till today is full of surprises and great learnings.<br>
 
                     <br>I have worked with some great minds and companies including a <b>rising startup</b> in software testing and a <b>Great MNC</b>.
                     Currently I am working in an leading organisation of IT industry called Spanidea systems to create great softwares.
@@ -65,10 +67,12 @@
             <div class="timeline-body">
                 {% include 'timeline.html' %}
             </div> 
+
             
-            
-            {% include 'footer.html' %}
         
+        
+            {% include 'footer.html' %}
+
 
     </body> 
 </html>

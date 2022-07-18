@@ -5,10 +5,15 @@
 }
 
 .main-body{
-    min-height: 100vh ;
+    min-height: 200vh;
     width: 100%;
     background: rgb(1,22,39);
     background: radial-gradient(circle, rgba(1,22,39,1) 24%, rgba(1,11,39,1) 61%, rgba(1,22,39,1) 94%);
+}
+
+.header-template{
+    color: #fff;
+    top:0%;
 }
 
 footer{
@@ -28,26 +33,25 @@ footer h4{
     color: #808080;
 }
 
-
-
 nav{
     display: flex;
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
-    
 
 }
 
 nav img {
     width: 100px;
+    
 
 }
 
 .nav-links{
-    flex: 1  ;
-    text-align: right;
     
+    flex:1;
+    text-align: right;
+    width: auto;
 
 }
 
@@ -130,12 +134,12 @@ nav img {
 /* Style for about page */
 
 .about-text-box{
-    width: 50%;
+    width: 80%;
     color: #fff;
     position: absolute;
     top: 40%;
     left: 44%;
-    transform: translate(-80%,-50%) ;
+    transform: translate(-47%,-50%) ;
     text-align: left;
 
 }
@@ -149,11 +153,11 @@ nav img {
 
 .techs1{
     color: #fff;
-    width: 25%;
+    width: 40%;
     position: absolute;
-    top: 72.27%;
+    top: 69%;
     left: 24%;
-    transform: translate(-80%,-50%) ;
+    transform: translate(-44%,-50%) ;
     text-align: left;
 }
 
@@ -166,11 +170,11 @@ nav img {
 
 .techs2{
     color: #fff;
-    width: 25%;
+    width: 40%;
     position: absolute;
-    top: 72.27%;
+    top: 69%;
     left: 24%;
-    transform: translate(20%,-50%) ;
+    transform: translate(56%,-50%) ;
     text-align: left;
 }
 
@@ -184,9 +188,9 @@ nav img {
     color: #fff;
     width: auto;
     position: absolute;
-    top: 60.6%;
+    top: 143%;
     left: 40%;
     transform: translate(35%,-50%) ;
-    font-size: 11px;
+    font-size: 14px;
     text-align: left;
 }

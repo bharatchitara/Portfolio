@@ -16,4 +16,4 @@ def about(request):
 ### for testing
 
 def test(request):
-    return render (request, 'base.html')     
+    return render (request, 'about2.html')     
