@@ -1,7 +1,7 @@
-*{
+body{
     margin:0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
 }
 
 .main-body{
@@ -23,7 +23,7 @@ footer{
 }
 
 footer h4{
-    font-weight: 300;
+    font-family: 'Helvetica 65 Medium', sans-serif;
     font-size: 18px;
     color: #808080;
 }
@@ -89,7 +89,7 @@ nav img {
     width: 45%;
     color: #fff;
     position: absolute;
-    top: 55%;
+    top: 53%;
     left: 42%;
     transform: translate(-80%,-50%) ;
     text-align: left;
@@ -97,12 +97,16 @@ nav img {
 
 .text-box h3{
     font-size: 28px;
-    font-weight: 200;
+    font-family: 'Helvetica 25 UltraLight', sans-serif;
 
 }
 
 .text-box h2{
     font-size: 34px;
+    /* font-family: 'Helvetica 35 Thin', sans-serif; */
+    /* font-family: 'Helvetica 45 Light', sans-serif; */
+    font-family: 'Helvetica 55 Roman', sans-serif;
+    /*font-family: 'Helvetica 65 Medium', sans-serif; */
 
 }
 
@@ -190,3 +194,24 @@ nav img {
     font-size: 11px;
     text-align: left;
 }
+
+
+.section-spliter{
+   position: absolute;
+   transform: rotate(270deg);
+   
+}
+
+.spliterh2{
+    width: 100%; 
+    font-size: 20px;
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+ } 
+ 
+.spliterspan{ 
+     padding:0 10px; 
+ }
+
