@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-!90m*!_a2k=$7+m4w2k@^5(jfb(7heo4tl58)7eph-d(*==8(x
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1','localhost']
 
 
 
@@ -59,6 +59,7 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'Portfolio.urls'
 
 STATIC_URL = '/static/'
+
 
 TEMPLATE_DIR = os.path.join(BASE_DIR,"templates")
 
